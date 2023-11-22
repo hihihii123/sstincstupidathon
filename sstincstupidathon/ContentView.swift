@@ -70,7 +70,7 @@ struct ContentView: View {
         }
         .sheet(isPresented: $popup, content: {
             Link(destination: URL(string: "https://www.youtube.com/watch?v=dQw4w9WgXcQ")!, label: {
-                let rando = Int.random(in: 0...1)
+                let rando = Int.random(in: 0...2)
                 if rando == 0 {
                     VStack {
                         Spacer()
@@ -117,6 +117,8 @@ struct ContentView: View {
                             .resizable()
                             .scaledToFit()
                     })
+                } else {
+                    Text("Adspace for rent, for more details please email us.")
                 }
             })
         })
