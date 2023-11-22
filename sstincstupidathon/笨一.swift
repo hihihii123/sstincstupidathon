@@ -61,7 +61,7 @@ struct 笨一: View {
             }
             
         }
-        .alert("NO. no more premium for you", isPresented: $idiotIII){}
+        .alert("Ok here your $0 refund (0% of cost)", isPresented: $idiotIII){}
         .alert("why... you this evil of a person...", isPresented: $sad) {
             Button("Buy") {
                 idiot = true

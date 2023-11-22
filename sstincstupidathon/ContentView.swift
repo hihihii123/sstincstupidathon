@@ -14,7 +14,7 @@ struct ContentView: View {
     @State var popup = false
     @State var premium = false
     @State var fakePremium = false
-    
+    @State var adinfo = false
 
 
     var body: some View {
@@ -27,8 +27,14 @@ struct ContentView: View {
         }
         NavigationStack {
             VStack {
+            
                 
                 List {
+                    VStack {
+                        Button{adinfo = true}label: {Text("Adspace for rent, press here for more details")}
+                            .alert("email us for more details", isPresented: $adinfo) {}
+                        
+                    }
                     NavigationLink {
                         笨一(premium: $premium, bindedFakePremium: $fakePremium)
                     } label: {
@@ -58,6 +64,8 @@ struct ContentView: View {
                     }
                     
                 }
+                Button{adinfo = true}label: {Text("Adspace for rent, press here for more details")}
+                    .background(.red)
             }
         }
         .sheet(isPresented: $popup, content: {
