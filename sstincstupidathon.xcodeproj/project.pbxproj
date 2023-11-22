@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C929C5DC2B0DD6A100BF407B /* stoopid calculator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C929C5DB2B0DD6A100BF407B /* stoopid calculator.swift */; };
+		C929C5DE2B0DD7CE00BF407B /* quest.swift in Sources */ = {isa = PBXBuildFile; fileRef = C929C5DD2B0DD7CE00BF407B /* quest.swift */; };
+		C9ABED852B0D9FEF0051F389 /* 笨一.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ABED842B0D9FEF0051F389 /* 笨一.swift */; };
+		C9ABED872B0DA1B80051F389 /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9ABED862B0DA1B80051F389 /* File.swift */; };
 		C9D30B872B0D95BC007C289C /* sstincstupidathonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D30B862B0D95BC007C289C /* sstincstupidathonApp.swift */; };
 		C9D30B892B0D95BC007C289C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9D30B882B0D95BC007C289C /* ContentView.swift */; };
 		C9D30B8B2B0D95BF007C289C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9D30B8A2B0D95BF007C289C /* Assets.xcassets */; };
@@ -34,6 +38,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		C929C5DB2B0DD6A100BF407B /* stoopid calculator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "stoopid calculator.swift"; sourceTree = "<group>"; };
+		C929C5DD2B0DD7CE00BF407B /* quest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = quest.swift; sourceTree = "<group>"; };
+		C9ABED842B0D9FEF0051F389 /* 笨一.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "笨一.swift"; sourceTree = "<group>"; };
+		C9ABED862B0DA1B80051F389 /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
 		C9D30B832B0D95BC007C289C /* sstincstupidathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sstincstupidathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9D30B862B0D95BC007C289C /* sstincstupidathonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sstincstupidathonApp.swift; sourceTree = "<group>"; };
 		C9D30B882B0D95BC007C289C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -94,8 +102,12 @@
 		C9D30B852B0D95BC007C289C /* sstincstupidathon */ = {
 			isa = PBXGroup;
 			children = (
+				C9ABED842B0D9FEF0051F389 /* 笨一.swift */,
+				C9ABED862B0DA1B80051F389 /* File.swift */,
 				C9D30B862B0D95BC007C289C /* sstincstupidathonApp.swift */,
 				C9D30B882B0D95BC007C289C /* ContentView.swift */,
+				C929C5DD2B0DD7CE00BF407B /* quest.swift */,
+				C929C5DB2B0DD6A100BF407B /* stoopid calculator.swift */,
 				C9D30B8A2B0D95BF007C289C /* Assets.xcassets */,
 				C9D30B8C2B0D95BF007C289C /* Preview Content */,
 			);
@@ -258,7 +270,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				C9D30B892B0D95BC007C289C /* ContentView.swift in Sources */,
+				C9ABED872B0DA1B80051F389 /* File.swift in Sources */,
 				C9D30B872B0D95BC007C289C /* sstincstupidathonApp.swift in Sources */,
+				C929C5DC2B0DD6A100BF407B /* stoopid calculator.swift in Sources */,
+				C929C5DE2B0DD7CE00BF407B /* quest.swift in Sources */,
+				C9ABED852B0D9FEF0051F389 /* 笨一.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
